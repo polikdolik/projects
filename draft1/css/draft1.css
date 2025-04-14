@@ -1,0 +1,41 @@
+.main-container{
+  background-color: #d9f0ef;
+}
+
+.face{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  border-radius: 50%;
+  margin: 100px auto;
+  
+}
+
+.eyes{
+  display: flex;
+  justify-content: space-between;
+  
+  width: 100px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+.eye{
+  width: 25px;
+  height: 25px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.smile {
+  width: 120px;
+  height: 60px;
+  border-bottom: 5px solid black;
+  border-radius: 0 0 65px 50px;
+}
+
+
